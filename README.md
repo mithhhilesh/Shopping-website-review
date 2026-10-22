@@ -1,6 +1,6 @@
 # 🛍️ Shopping Website Review Analysis
 
-An academic project analyzing **36,000 Meesho app reviews** using **Hadoop HDFS, Java MapReduce, PySpark, and Streamlit**.
+A project analyzing **36,000 Meesho app reviews** using **Hadoop HDFS, Java MapReduce, PySpark, and Streamlit**.
 
 ## Overview
 
@@ -62,11 +62,6 @@ python -m streamlit run dashboard/app.py
 
 The dashboard reads precomputed results; Hadoop and Spark are not required to display them. Regenerating results requires the processing environment. Preparation and analysis scripts currently use `C:\BDA Project`; update their paths if needed.
 
-## Academic Context
-
-Developed for **Big Data Analytics Laboratory**, Course Code **24CS02PR0503**, applying HDFS commands, Java MapReduce, and PySpark RDD operations.
-
 ## Limitations
 
 Historical data; keyword matches are not verified complaints, helpfulness votes do not verify accuracy, and company replies do not establish resolution. Hadoop runs on one computer, and PySpark analysis runs locally.
-````
