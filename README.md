@@ -1,4 +1,3 @@
-````markdown
 # 🛍️ Shopping Website Review Analysis
 
 An academic project analyzing **36,000 Meesho app reviews** using **Hadoop HDFS, Java MapReduce, PySpark, and Streamlit**.
